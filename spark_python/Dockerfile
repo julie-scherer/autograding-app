@@ -13,8 +13,6 @@ WORKDIR /app
 COPY ./submission/ /app/submission/
 COPY ./prompts/ /app/prompts/
 COPY ./src/ /app/src/
-# COPY ./src/ ./src/ # now submission
-# COPY _app/ ./ # now folders above
 
 # Copy local files with absolute paths
 COPY ./.env /app/.env
