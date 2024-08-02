@@ -1,0 +1,510 @@
+* Commit: 63eb545a4daf862100c2d3e17bd8f5e6aa07273c
+| Author: Julie Scherer
+| Date: 2024-06-03 14:49:47 -0500
+| Message: trying different error logging approach
+| Branch:  (HEAD -> fix/chatgpt-character-limit, origin/fix/chatgpt-character-limit)
+| Stats:
+| 
+|  _app/src/generate_comment.py | 15 +++++++--------
+|  1 file changed, 7 insertions(+), 8 deletions(-)
+| 
+* Commit: 2833f5d9a13ec745d721672bea6098fe36f719be
+| Author: Julie Scherer
+| Date: 2024-06-03 14:44:14 -0500
+| Message: seeing if print will show the message
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: 632a95f6a4b3524f3c70e2f5f11994c1cd4f5e46
+| Author: Julie Scherer
+| Date: 2024-06-03 14:41:19 -0500
+| Message: return error message if sys exit fails
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 7 ++++---
+|  1 file changed, 4 insertions(+), 3 deletions(-)
+| 
+* Commit: 24304e1102fac44dbfccab90765f53590a9440fa
+| Author: Julie Scherer
+| Date: 2024-06-03 14:40:36 -0500
+| Message: add error message to commit if sys exit fails
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 8 ++++----
+|  1 file changed, 4 insertions(+), 4 deletions(-)
+| 
+* Commit: 0fdcb42c0de1201ef7686a6fc05ab0f7730d89a1
+| Author: Julie Scherer
+| Date: 2024-06-03 14:39:07 -0500
+| Message: exit python script with error if chatgpt failed
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 25 +++++++------------------
+|  1 file changed, 7 insertions(+), 18 deletions(-)
+| 
+* Commit: 85b173fdc23661ed1d188bade9ce48471a7b3ad9
+| Author: Julie Scherer
+| Date: 2024-06-03 14:32:02 -0500
+| Message: fixed response model and updated exception catch in get chatgpt response
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 19 +++++++++----------
+|  1 file changed, 9 insertions(+), 10 deletions(-)
+| 
+* Commit: b661752982bca83e3e531deb106ec8ffaa79abb1
+| Author: Julie Scherer
+| Date: 2024-06-03 14:26:34 -0500
+| Message: forgot to comment out the old function
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 24 ++++++++++++------------
+|  1 file changed, 12 insertions(+), 12 deletions(-)
+| 
+* Commit: bd70313ec8a7ac2af58e9f855ffa7aae274a2e2e
+| Author: Julie Scherer
+| Date: 2024-06-03 14:24:32 -0500
+| Message: updated error logging
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 52 ++++++++++++++++++++++++++++++------------
+|  1 file changed, 38 insertions(+), 14 deletions(-)
+| 
+* Commit: f5b84fb92784839cac454424babb9684a8af9d3f
+| Author: Julie Scherer
+| Date: 2024-06-03 14:12:55 -0500
+| Message: fix import
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 5 +----
+|  1 file changed, 1 insertion(+), 4 deletions(-)
+| 
+* Commit: 8c6f12458d82590eae45111f2cfef4a075d17c62
+| Author: Julie Scherer
+| Date: 2024-06-03 14:08:06 -0500
+| Message: removed old get response function
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 18 ++++--------------
+|  1 file changed, 4 insertions(+), 14 deletions(-)
+| 
+* Commit: bce65e436d31403373e7fe5bb37cb6f76c9b13fd
+| Author: Julie Scherer
+| Date: 2024-06-03 14:03:43 -0500
+| Message: fix error catching
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 4 +---
+|  1 file changed, 1 insertion(+), 3 deletions(-)
+| 
+* Commit: d2946c04fa54ee2bbd33bb4e59fa24295a3631b6
+| Author: Julie Scherer
+| Date: 2024-06-03 13:56:43 -0500
+| Message: add more helpful logging when code exceeds max character limit for chatgpt
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 21 +++++++++++++++++++++
+|  1 file changed, 21 insertions(+)
+| 
+* Commit: 465149c99b1c2812635cdc93350464c2444121f4
+| Author: Julie Scherer
+| Date: 2024-06-03 13:44:16 -0500
+| Message: Revert back to original version with some minor changes
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 60 +++++++++++++++++++++---------------------
+|  1 file changed, 30 insertions(+), 30 deletions(-)
+| 
+* Commit: af4428e1d864eaaed71b1b73d1260ffe0b8bebfb
+| Author: Julie Scherer
+| Date: 2024-06-03 11:47:10 -0500
+| Message: updated comment formatting again
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 22 ++++++++++++----------
+|  1 file changed, 12 insertions(+), 10 deletions(-)
+| 
+* Commit: e98b53610f1b47e7e86836249e6283e5152be065
+| Author: Julie Scherer
+| Date: 2024-06-03 11:36:25 -0500
+| Message: fixed user prompts
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 5 +++--
+|  1 file changed, 3 insertions(+), 2 deletions(-)
+| 
+* Commit: a321af65ef42d8bd4dd6182fc4fe9e3bfbe964c1
+| Author: Julie Scherer
+| Date: 2024-06-03 11:29:55 -0500
+| Message: cleaned up comment formatting
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 24 ++++++++++--------------
+|  1 file changed, 10 insertions(+), 14 deletions(-)
+| 
+* Commit: c2321ba0993d63a8ed55def8498cc981869db356
+| Author: Julie Scherer
+| Date: 2024-06-03 11:13:09 -0500
+| Message: added new user prompts to list
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* Commit: eb1684714db2a3cfa24c34deb62f56c69ff8c9a0
+| Author: Julie Scherer
+| Date: 2024-06-03 11:08:31 -0500
+| Message: created separate functions for jobs and tests
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 56 ++++++++++++++++++++----------------------
+|  1 file changed, 26 insertions(+), 30 deletions(-)
+| 
+* Commit: 5747b8d42124e368459b2661a37632e9eef86332
+| Author: Julie Scherer
+| Date: 2024-06-03 10:38:47 -0500
+| Message: Reduced text in user prompts
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 26 ++++++++------------------
+|  1 file changed, 8 insertions(+), 18 deletions(-)
+| 
+* Commit: 1d74e5d3355863c755f263a4c478d71a6c652ab1
+| Author: Julie Scherer
+| Date: 2024-05-30 17:37:14 -0500
+| Message: Fixed workflow error message
+| Branch:  (origin/main, main)
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 7 ++-----
+|  1 file changed, 2 insertions(+), 5 deletions(-)
+| 
+* Commit: 0ac0b6affae68e24b51482a8b55394793b1eda65
+| Author: Julie Scherer
+| Date: 2024-05-30 17:31:49 -0500
+| Message: Added jobs to validate PR environment
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 64 ++++++++++++++++++++++++++++++++++++-
+|  1 file changed, 63 insertions(+), 1 deletion(-)
+| 
+* Commit: d6eab58c2dcd7764f55417839e9ad2242aaa84db
+| Author: Julie Scherer
+| Date: 2024-05-29 17:15:47 -0500
+| Message: Remove print comment at end of python script
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 5 ++---
+|  1 file changed, 2 insertions(+), 3 deletions(-)
+| 
+* Commit: 83c55647d87ba07802bc70e0ab9d7b8825472489
+| Author: Julie Scherer
+| Date: 2024-05-29 17:08:41 -0500
+| Message: updated step names for clarity
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 6 +++---
+|  1 file changed, 3 insertions(+), 3 deletions(-)
+| 
+* Commit: 8e6b2a2511be4d7c78322a6f91c89c295ceb4810
+| Author: Julie Scherer
+| Date: 2024-05-29 16:50:38 -0500
+| Message: removed PR branches
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 3 ---
+|  1 file changed, 3 deletions(-)
+| 
+* Commit: f8ba8d0a4308fcb3b52979913237c015ead18cf4
+| Author: Julie Scherer
+| Date: 2024-05-29 16:47:19 -0500
+| Message: Updated AI generated comment script
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml |   9 +-
+|  _app/src/generate_comment.py      | 186 ++++++++++++++++++++----------------
+|  2 files changed, 110 insertions(+), 85 deletions(-)
+| 
+* Commit: b0826f930ad9ffeb492bde067511eabfdcb015d5
+| Author: Julie Scherer
+| Date: 2024-05-29 16:46:47 -0500
+| Message: Updated instructions and src structure
+| Branch: 
+| Stats:
+| 
+|  README.md                                           | 4 ++--
+|  src/jobs/{convert_query_1_job.py => job_1.py}       | 0
+|  src/jobs/{convert_query_2_job.py => job_2.py}       | 0
+|  src/unit_tests/{test_jobs.py => test_spark_jobs.py} | 0
+|  4 files changed, 2 insertions(+), 2 deletions(-)
+| 
+* Commit: 214181ef781378daa6914ba2c9b87432d438fc90
+| Author: Julie Scherer
+| Date: 2024-05-29 12:53:06 -0500
+| Message: Restructured repo folders
+| Branch: 
+| Stats:
+| 
+|  README.md                                        | 16 +++++++++++-----
+|  src/jobs/{job_1.py => convert_query_1_job.py}    |  5 +++--
+|  src/jobs/{job_2.py => convert_query_2_job.py}    |  5 +++--
+|  src/tests/test_2.py                              |  0
+|  src/{tests/test_1.py => unit_tests/test_jobs.py} |  0
+|  {src/tests => tests}/conftest.py                 |  0
+|  {src/tests => tests}/test_can_import.py          |  0
+|  7 files changed, 17 insertions(+), 9 deletions(-)
+| 
+* Commit: 1ee02db5ddfa1e7c728fabdd562cb87ae5db098c
+| Author: Julie Scherer
+| Date: 2024-05-27 22:30:38 -0500
+| Message: Removed testing variable from generate comment function
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 33 ++++++++++++++++-----------------
+|  1 file changed, 16 insertions(+), 17 deletions(-)
+| 
+* Commit: 5880ee8e237342bad4c89df9569cb7cb1e59cc55
+| Author: Julie Scherer
+| Date: 2024-05-27 22:28:07 -0500
+| Message: Fixed variable names, again
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* Commit: 15604cfd8c570a8588bdb838d6cb7425553612d2
+| Author: Julie Scherer
+| Date: 2024-05-27 22:25:56 -0500
+| Message: Fixed variable names
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 13 ++++++-------
+|  1 file changed, 6 insertions(+), 7 deletions(-)
+| 
+* Commit: b2ff3616ae1de28393acaf7d51397e7ab0485ea5
+| Author: Julie Scherer
+| Date: 2024-05-27 22:22:08 -0500
+| Message: Updated get submissions function... again
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 175 ++++++++++++++++++++++++-----------------
+|  1 file changed, 104 insertions(+), 71 deletions(-)
+| 
+* Commit: ee0bc278c0086848654bcc3c73ab5cfb10b64f76
+| Author: Julie Scherer
+| Date: 2024-05-27 22:15:58 -0500
+| Message: Importing re package
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* Commit: e364e6e524869de0aa805247bb1414f08c9e4cb4
+| Author: Julie Scherer
+| Date: 2024-05-27 22:12:46 -0500
+| Message: Updated get submissions function again
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 44 ++++++++++++++++++++++++++----------------
+|  1 file changed, 27 insertions(+), 17 deletions(-)
+| 
+* Commit: c7f743e3a5b1b4a9938cbcb479df75806dadc087
+| Author: Julie Scherer
+| Date: 2024-05-27 22:08:36 -0500
+| Message: Updated get submissions function
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 13 +++++++------
+|  1 file changed, 7 insertions(+), 6 deletions(-)
+| 
+* Commit: ffa8118ef98475cf195e9c3fee1bbdfc620fdedc
+| Author: Julie Scherer
+| Date: 2024-05-27 22:02:28 -0500
+| Message: Fixed submission file paths
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 5 ++---
+|  1 file changed, 2 insertions(+), 3 deletions(-)
+| 
+* Commit: 836069c03f32af224d42995badecbcd71aeeb279
+| Author: Julie Scherer
+| Date: 2024-05-27 21:58:22 -0500
+| Message: Updated CI/CD to check all files changed in PR
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 12 ++----------
+|  _app/requirements.txt             |  4 ----
+|  _app/src/generate_comment.py      | 13 ++++++-------
+|  _app/src/util.py                  | 12 ------------
+|  4 files changed, 8 insertions(+), 33 deletions(-)
+| 
+* Commit: 331c06edb38fccc99c3ddcb3e3bd4d2cc997c24b
+| Author: Julie Scherer
+| Date: 2024-05-27 21:49:59 -0500
+| Message: Copying src folder into Dockerfile
+| Branch: 
+| Stats:
+| 
+|  Dockerfile | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: c0eb76b709e298278e904833ac008655a6f6d324
+| Author: Julie Scherer
+| Date: 2024-05-27 21:46:49 -0500
+| Message: Changed before_sha to PR base sha
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: ae7748ed411d37a501d16794e9ae437aa5664fbb
+| Author: Julie Scherer
+| Date: 2024-05-27 21:44:11 -0500
+| Message: Added Dockerfile
+| Branch: 
+| Stats:
+| 
+|  Dockerfile | 25 +++++++++++++++++++++++++
+|  1 file changed, 25 insertions(+)
+| 
+* Commit: 5541c3b5a4c526118658be349f3e3b08a0ebad4e
+| Author: Julie Scherer
+| Date: 2024-05-27 21:41:00 -0500
+| Message: Removed double quotes around files in tj-actions step
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* Commit: 9f6982c02fd0b7d3cb7f392a67b01cad9029305b
+| Author: Julie Scherer
+| Date: 2024-05-27 21:37:00 -0500
+| Message: Added user prompt in S3
+| Branch: 
+| Stats:
+| 
+|  _app/src/generate_comment.py | 25 ++++++++++++++++---------
+|  1 file changed, 16 insertions(+), 9 deletions(-)
+| 
+* Commit: 4c1b619b19b74d5df94a8cd582bae2cd35cebcc2
+| Author: Julie Scherer
+| Date: 2024-05-27 21:27:34 -0500
+| Message: Updated repository with CI/CD and LLM feedback application
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml                 | 132 ++++++++++++++++++++
+|  README.md                                         |  13 +-
+|  _app/requirements.txt                             |   8 ++
+|  _app/src/entrypoint.sh                            |  25 ++++
+|  _app/src/generate_comment.py                      | 116 +++++++++++++++++
+|  _app/src/util.py                                  |  76 +++++++++++
+|  src/{ => jobs}/job_1.py                           |   0
+|  src/{ => jobs}/job_2.py                           |   0
+|  {tests => src/tests}/conftest.py                  |   0
+|  .../deploy-tests.yml => src/tests/test_1.py       |   0
+|  src/tests/test_2.py                               |   0
+|  {tests => src/tests}/test_can_import.py           |   0
+|  12 files changed, 365 insertions(+), 5 deletions(-)
+| 
+* Commit: 08cc5d3be3f6af94ed3c0b0af04fe1bbe096c47b
+| Author: Julie Scherer
+| Date: 2024-05-19 11:03:57 -0500
+| Message: deleted DS_Store
+| Branch: 
+| Stats:
+| 
+|  .DS_Store | Bin 6148 -> 0 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* Commit: b963941eeef4c5add69dc3cc59ac42e98b2dba7f
+| Author: Julie Scherer
+| Date: 2024-05-19 11:03:39 -0500
+| Message: updated gitignore
+| Branch: 
+| Stats:
+| 
+|  .gitignore | 14 +++++++++++++-
+|  1 file changed, 13 insertions(+), 1 deletion(-)
+| 
+* Commit: bd8f5eb639b383e48b5be84bbcc508486fd7cd26
+| Author: Julie Scherer
+| Date: 2024-05-19 11:02:01 -0500
+| Message: added blank workflow file for deploying tests
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/deploy-tests.yml | 0
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* Commit: 50ad3e5679ed64db6295d046d362babb3f92e9bd
+| Author: Julie Scherer
+| Date: 2024-05-19 11:01:43 -0500
+| Message: updated README
+| Branch: 
+| Stats:
+| 
+|  README.md | 32 +++++++++++++++++++++++++++-----
+|  1 file changed, 27 insertions(+), 5 deletions(-)
+| 
+* Commit: fded0151e82a77b5a504d899b514b4c9ad1c59f8
+| Author: Julie Scherer
+| Date: 2024-03-29 12:31:06 -0500
+| Message: copied folder contents from dataexpert
+| Branch: 
+| Stats:
+| 
+|  .DS_Store | Bin 0 -> 6148 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* Commit: c19c48143a7672dc122c29fc95484becb35a1aa0
+  Author: Julie Scherer
+  Date: 2024-03-29 11:32:33 -0500
+  Message: first commit
+  Branch: 
+  Stats:
+  
+   .gitignore               | 135 +++++++++++++++++++++++++++++++++++++++++++++
+   README.md                |  21 +++++++
+   requirements.txt         |   4 ++
+   src/__init__.py          |   0
+   src/job_1.py             |  24 ++++++++
+   src/job_2.py             |  24 ++++++++
+   tests/conftest.py        |  14 +++++
+   tests/test_can_import.py |   5 ++
+   8 files changed, 227 insertions(+)

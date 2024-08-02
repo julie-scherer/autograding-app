@@ -1,0 +1,1289 @@
+* Commit: 98257e4488c4d5d4eb2052eddc7f29aa1fbc2530
+| Author: Julie Scherer
+| Date: 2024-05-19 21:02:32 -0500
+| Message: setting before sha to event before in github context to limit chatgpt api usage
+| Branch:  (HEAD -> cicd/limit-chatgpt-usage, origin/cicd/limit-chatgpt-usage, main)
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 4 ++--
+|  1 file changed, 2 insertions(+), 2 deletions(-)
+| 
+* Commit: db8720ce71a768aae0f376548a781af9be234af9
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-18 18:18:09 -0500
+| Message: Update README.md
+| Branch:  (origin/main)
+| Stats:
+| 
+|  README.md | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: 4d28c8e48c0d762c7ac91758f42c5eea6c3c426c
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-18 17:40:53 -0500
+| Message: Update README.md
+| Branch: 
+| Stats:
+| 
+|  README.md | 66 ++++++++++++++++++++++++++++++-------------------------------
+|  1 file changed, 32 insertions(+), 34 deletions(-)
+| 
+* Commit: 8146babb1c461eb7beea0f80c76b21ef7633111a
+| Author: Julie Scherer
+| Date: 2024-05-18 00:54:43 -0500
+| Message: get changed files from pull request base sha
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 6 ++----
+|  1 file changed, 2 insertions(+), 4 deletions(-)
+| 
+* Commit: 5804079388599d733d8b29d722fc6825b1090000
+| Author: Julie Scherer
+| Date: 2024-05-17 23:55:48 -0500
+| Message: Revert "using base SHA instead of before event"
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 9 +++++++--
+|  1 file changed, 7 insertions(+), 2 deletions(-)
+| 
+* Commit: 6d8a19adc79e243d195745f563a7aaaf1b913ad7
+| Author: Julie Scherer
+| Date: 2024-05-17 23:54:50 -0500
+| Message: Revert "checking before and after sha in get-filtered-file-changes step"
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 11 ++++-------
+|  1 file changed, 4 insertions(+), 7 deletions(-)
+| 
+* Commit: a0faa8506010482e2b2d80984079f9ba525ec97a
+| Author: Julie Scherer
+| Date: 2024-05-17 23:30:24 -0500
+| Message: using base SHA instead of before event
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: 4a3412b8a35ff648f45220877663d15fc1f7952e
+| Author: Julie Scherer
+| Date: 2024-05-17 23:19:26 -0500
+| Message: checking before and after sha in get-filtered-file-changes step
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 11 +++++++----
+|  1 file changed, 7 insertions(+), 4 deletions(-)
+| 
+* Commit: 130ea66a694b481a2c8344e73191e2521933dc92
+| Author: Julie Scherer
+| Date: 2024-05-17 23:07:41 -0500
+| Message: added check to avoid errors on branch update
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 29 +++++++++++++----------------
+|  1 file changed, 13 insertions(+), 16 deletions(-)
+|   
+| * Commit: 1168bfdec6577a43fc25a0e81cd49cb005856d44
+|/| Author: Julie Scherer
+| | Date: 2024-05-17 23:09:12 -0500
+| | Message: WIP on main: 18161a1 removed get_pr step
+| | Branch:  (refs/stash)
+| | Stats:
+| | 
+| * Commit: 53b1ddb078fdc2c3657ac9cf80ef8be7a3b6f273
+|/  Author: Julie Scherer
+|   Date: 2024-05-17 23:09:12 -0500
+|   Message: index on main: 18161a1 removed get_pr step
+|   Branch: 
+|   Stats:
+| 
+* Commit: 18161a154dfc477c7ab0af6720c9b52a3583c197
+| Author: Julie Scherer
+| Date: 2024-05-17 23:03:40 -0500
+| Message: removed get_pr step
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/manual_feedback.yml | 10 ----------
+|  1 file changed, 10 deletions(-)
+| 
+* Commit: 4b3500cc2d4fe1fa444223eb0e89a36cd365d1a9
+| Author: Julie Scherer
+| Date: 2024-05-17 23:02:03 -0500
+| Message: updated checkout repo steps
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/manual_feedback.yml | 23 +----------------------
+|  1 file changed, 1 insertion(+), 22 deletions(-)
+| 
+* Commit: b757151e9ff97096226d1f306a16fcd32ddc8261
+| Author: Julie Scherer
+| Date: 2024-05-17 22:33:55 -0500
+| Message: fixed GH_TOKEN variable
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/manual_feedback.yml | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: a700b20b165a092760721296901ee34d4a028674
+| Author: Julie Scherer
+| Date: 2024-05-17 22:10:39 -0500
+| Message: moved GH_TOKEN to get_pr step
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/manual_feedback.yml | 5 ++---
+|  1 file changed, 2 insertions(+), 3 deletions(-)
+| 
+* Commit: 44d5590f4d89134d9dc1113de7fdbdcda8af89f1
+| Author: Julie Scherer
+| Date: 2024-05-17 22:04:19 -0500
+| Message: added GH_TOKEN env variable to workflow
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/manual_feedback.yml | 3 +++
+|  1 file changed, 3 insertions(+)
+| 
+* Commit: aa04c027e2ada368c2b17a4a99a1976d35772e11
+| Author: Julie Scherer
+| Date: 2024-05-17 21:57:29 -0500
+| Message: added manual feedback dispatch workflow
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/manual_feedback.yml | 129 ++++++++++++++++++++++++++++++++
+|  1 file changed, 129 insertions(+)
+| 
+* Commit: 365375f66137b79c425ddb7f13ed38d48ebd61d2
+| Author: Julie Scherer
+| Date: 2024-05-17 21:53:21 -0500
+| Message: Revert "CI/CD - added workflow dispatch trigger (#83)"
+| Branch:  (origin/revert-squash-merge, revert-squash-merge)
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 24 +++++++++---------------
+|  1 file changed, 9 insertions(+), 15 deletions(-)
+| 
+* Commit: e5173e89d4981e70fa346d111464f9b6cea1f948
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-17 21:14:51 -0500
+| Message: CI/CD - added workflow dispatch trigger (#83)
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 24 +++++++++++++++---------
+|  1 file changed, 15 insertions(+), 9 deletions(-)
+|   
+| * Commit: a28414026f989d50fadee408fec8e93e310b565b
+| | Author: Julie Scherer
+| | Date: 2024-05-17 21:08:02 -0500
+| | Message: added condition to handle PR file changes for workflow dispatch
+| | Branch:  (origin/cicd/workflow-dispatch)
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 21 +++++++++++++--------
+| |  1 file changed, 13 insertions(+), 8 deletions(-)
+| | 
+| * Commit: fe9899f6ba76c4307ae53982b8334b16feb02953
+|/  Author: Julie Scherer
+|   Date: 2024-05-17 20:51:49 -0500
+|   Message: added workflow dispatch trigger
+|   Branch: 
+|   Stats:
+|   
+|    .github/workflows/autograding.yml | 3 ++-
+|    1 file changed, 2 insertions(+), 1 deletion(-)
+| 
+* Commit: 518065deab6bde5153a75c37fd5bba91593e2652
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-17 12:54:11 -0500
+| Message: CI-CD Fix - Trigger Workflow if Any Submission Changes in PR (#71)
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml |  73 ++++++++++----------
+|  _app/src/entrypoint.sh            |  11 +--
+|  _app/src/generate_comment.py      |   4 +-
+|  _app/src/trino_tests.py           |  47 ++++++-------
+|  _app/src/util.py                  | 130 ++++++++++++++++++------------------
+|  5 files changed, 131 insertions(+), 134 deletions(-)
+|   
+| * Commit: a320dc38f59af61c6de526b8897d72211ebc1ae8
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:51:59 -0500
+| | Message: pull request target trigger
+| | Branch:  (origin/cicd/submission-file-changes)
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: f34af857e66ae3917eb5acb4764154e1f3f5c55a
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:50:02 -0500
+| | Message: removed fake queries
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 10 ----------
+| |  submission/query_3.sql |  3 ---
+| |  2 files changed, 13 deletions(-)
+| | 
+| * Commit: a634fa10d25316f92a23881c6c9101643b4361d5
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:46:54 -0500
+| | Message: fake submission
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  submission/query_3.sql | 2 +-
+| |  2 files changed, 2 insertions(+), 2 deletions(-)
+| | 
+| * Commit: 758990d59343746848ace44abd47421882c57b4a
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:44:47 -0500
+| | Message: fake query 1 submission with my schema name
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 16 ++++++++--------
+| |  1 file changed, 8 insertions(+), 8 deletions(-)
+| | 
+| * Commit: 18f8c6afce7a5de0dfbbecc0e4004e0a3e4281b6
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:43:36 -0500
+| | Message: updated logging
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/entrypoint.sh       | 2 +-
+| |  _app/src/generate_comment.py | 4 ++--
+| |  2 files changed, 3 insertions(+), 3 deletions(-)
+| | 
+| * Commit: a50f29cac7719aea01c9523d909deeee86265946
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:37:49 -0500
+| | Message: removed empty lines
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_4.sql | 1 -
+| |  submission/query_5.sql | 1 -
+| |  2 files changed, 2 deletions(-)
+| | 
+| * Commit: 59a4ed698836deaece1a082a87c009b432973c40
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:37:30 -0500
+| | Message: removed ...
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/entrypoint.sh | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 092ecab91882b67ce6f34142f5dc26c20e6ea11e
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:34:34 -0500
+| | Message: fake submission
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_5.sql | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * Commit: a45ec67d1bc0322b27c84cc119613aa0268472b7
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:34:24 -0500
+| | Message: fake submission
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 2 +-
+| |  submission/query_4.sql | 1 +
+| |  2 files changed, 2 insertions(+), 1 deletion(-)
+| | 
+| * Commit: 1acedc2285c31b3011f6ae3750fab52fa66c6fea
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:34:02 -0500
+| | Message: check for files with any non-white space
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/util.py | 3 +--
+| |  1 file changed, 1 insertion(+), 2 deletions(-)
+| | 
+| * Commit: f149f1b93a1fe66194f5e795b2a4f5f20ec1b149
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:31:51 -0500
+| | Message: added clearer message when no comments generated
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/generate_comment.py | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: b6dfee932a64e4f7c772537ee18cce6634854897
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:23:13 -0500
+| | Message: fixed edge case and formatting
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/entrypoint.sh       |   2 +-
+| |  _app/src/generate_comment.py |   4 +-
+| |  _app/src/util.py             | 131 ++++++++++++++++++++-------------------
+| |  3 files changed, 69 insertions(+), 68 deletions(-)
+| | 
+| * Commit: 8fdc9bc181bcc9926430dc41728a71dd0686b61e
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:18:13 -0500
+| | Message: fix to capture output from trino tests in entrypoint script
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/entrypoint.sh  |  7 ++++---
+| |  _app/src/trino_tests.py | 12 +++---------
+| |  2 files changed, 7 insertions(+), 12 deletions(-)
+| | 
+| * Commit: 4c329a4acd80cb55f85743846e293111d69e1017
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:11:44 -0500
+| | Message: updated logging for clarity
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 8 ++++----
+| |  1 file changed, 4 insertions(+), 4 deletions(-)
+| | 
+| * Commit: 8a0de250c68568153f29785a6b5edb94a04b567d
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:08:34 -0500
+| | Message: removed query logging
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/trino_tests.py | 3 +--
+| |  1 file changed, 1 insertion(+), 2 deletions(-)
+| | 
+| * Commit: 4cc905e7a2ddaf6f581022fb98e03af0b47d0599
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:07:08 -0500
+| | Message: fixed all_changed_files variable
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: ef2a8d32a78e29381ab1a6517423130b7888ee51
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:05:24 -0500
+| | Message: logging executed queries
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/trino_tests.py | 6 ++++--
+| |  1 file changed, 4 insertions(+), 2 deletions(-)
+| | 
+| * Commit: 0e6c221a799a0e60dd4ec4b86b696f5488b90665
+| | Author: Julie Scherer
+| | Date: 2024-05-17 12:02:09 -0500
+| | Message: remove query 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 6 ------
+| |  1 file changed, 6 deletions(-)
+| | 
+| * Commit: 8f7233dd092ec00294f9592c173b15456d1172d7
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:59:29 -0500
+| | Message: fake query 3 submission
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 3 +++
+| |  1 file changed, 3 insertions(+)
+| | 
+| * Commit: f60be4a181264735c929af0714345605f383b870
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:58:53 -0500
+| | Message: fake query 1 and 2 submission for testing
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 5 +----
+| |  submission/query_2.sql | 6 ++++++
+| |  2 files changed, 7 insertions(+), 4 deletions(-)
+| | 
+| * Commit: 566d918fd63c0d5a43f171840ab28611aa847bcf
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:54:36 -0500
+| | Message: added query 1 solution
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 13 +++++++++++++
+| |  1 file changed, 13 insertions(+)
+| | 
+| * Commit: 3fce633df93b743151bc311b9dcda1beed027430
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:53:28 -0500
+| | Message: fixed drop and create schema sql queries
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/trino_tests.py | 30 +++++++++++++++---------------
+| |  1 file changed, 15 insertions(+), 15 deletions(-)
+| | 
+| * Commit: 954c3640e826e1f0a6b54dc295307a1acc6f3ab0
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:47:17 -0500
+| | Message: removed fake query 1 and 2 submission for testing
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 1 -
+| |  submission/query_2.sql | 1 -
+| |  2 files changed, 2 deletions(-)
+| | 
+| * Commit: afbd24cf5f01b6d6425419ca283b85f961e334d0
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:46:53 -0500
+| | Message: using GITHUB_OUTPUT to set variables in github env
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 25 ++++++++++++-------------
+| |  1 file changed, 12 insertions(+), 13 deletions(-)
+| | 
+| * Commit: 164931fd2e204d15523b1d1f001f0d41538817e8
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:35:20 -0500
+| | Message: fixed typo in variable names
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 8 ++++----
+| |  1 file changed, 4 insertions(+), 4 deletions(-)
+| | 
+| * Commit: 0778a7c39fd6fee0690e47c35d4dda7bd74999fd
+| | Author: Julie Scherer
+| | Date: 2024-05-17 11:31:26 -0500
+| | Message: fake query 1 and 2 submission for testing
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 1 +
+| |  submission/query_2.sql | 1 +
+| |  2 files changed, 2 insertions(+)
+| | 
+| * Commit: 1609e5eae7d33581d87e6e0e5129efb2d95450af
+|/  Author: Julie Scherer
+|   Date: 2024-05-17 11:30:10 -0500
+|   Message: checking if any submission files changed in PR
+|   Branch: 
+|   Stats:
+|   
+|    .github/workflows/autograding.yml | 60 ++++++++++++++++++-----------------
+|    1 file changed, 31 insertions(+), 29 deletions(-)
+| 
+* Commit: 4cecbb8ba856710d37fe592073cbfd818a7fcfc0
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-16 02:30:17 -0500
+| Message: ci/cd get files changed in push event (#21)
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 26 +++++++++++++----------
+|  _app/src/entrypoint.sh            | 41 +++++++++++++++----------------------
+|  _app/src/trino_tests.py           | 28 +++++++++++--------------
+|  3 files changed, 43 insertions(+), 52 deletions(-)
+|   
+| * Commit: db55784897a47cd1c07d956819e5e84f4a3925ee
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:28:38 -0500
+| | Message: use pull request target
+| | Branch:  (origin/cicd/files-changed-push-event)
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 4 ++--
+| |  1 file changed, 2 insertions(+), 2 deletions(-)
+| | 
+| * Commit: 7f69f1c5a82ee7e74a0a256ca308e374b269c1fe
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:28:27 -0500
+| | Message: cleaned up code
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 3 +--
+| |  submission/query_1.sql            | 3 ---
+| |  submission/query_2.sql            | 3 ---
+| |  submission/query_3.sql            | 3 ---
+| |  4 files changed, 1 insertion(+), 11 deletions(-)
+| | 
+| * Commit: 6938e9efba234eedb29db15121e779e1a567eb15
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:24:32 -0500
+| | Message: query 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: fbcbbad057d1199bdbb57ab0bc9226183bb39ede
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:24:24 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 02512924d30a17e63396a9cf9b52d1c0a115053f
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:24:14 -0500
+| | Message: formatting
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 12 +++++++-----
+| |  1 file changed, 7 insertions(+), 5 deletions(-)
+| | 
+| * Commit: 21460ae7da0c934ecd78827861cdd8351d1e5315
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:18:01 -0500
+| | Message: logging
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 3 ++-
+| |  1 file changed, 2 insertions(+), 1 deletion(-)
+| | 
+| * Commit: 0b6ba47b1c607432273ad87bc450a19c0cc11f93
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:17:51 -0500
+| | Message: queries
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 0c7b07f718f4b8fa86092df4719da598d20c67e1
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:17:41 -0500
+| | Message: queries
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 2 +-
+| |  submission/query_3.sql | 2 +-
+| |  2 files changed, 2 insertions(+), 2 deletions(-)
+| | 
+| * Commit: 74d10cafb5c9838b7d4a2a0786e9db82daf6e903
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:15:25 -0500
+| | Message: change query 2 table name
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: df8926fd3e67f905e4b170e6b155f72d2a01246a
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:15:00 -0500
+| | Message: logging
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 8 ++++----
+| |  1 file changed, 4 insertions(+), 4 deletions(-)
+| | 
+| * Commit: fdc9f54c74695247ba84be92e57f4ffef58dd40a
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:12:26 -0500
+| | Message: query 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 3 +++
+| |  1 file changed, 3 insertions(+)
+| | 
+| * Commit: 1b7280b585459355fa7dfe0a1425fc7093c909aa
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:12:11 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: efee59fa1a2df794dac5d6af73bf431a196266c4
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:11:27 -0500
+| | Message: removed query 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 1 -
+| |  1 file changed, 1 deletion(-)
+| | 
+| * Commit: 9b98a5cbc6ffed61c6de7aa6ca3a0fc2e6bcd5a1
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:11:15 -0500
+| | Message: cleaned up logging
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 9 +++------
+| |  1 file changed, 3 insertions(+), 6 deletions(-)
+| | 
+| * Commit: f65b16c2fbafbf5d067ba272f7a9a193c7be8844
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:08:26 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 7 +++++--
+| |  submission/query_1.sql            | 2 +-
+| |  2 files changed, 6 insertions(+), 3 deletions(-)
+| | 
+| * Commit: e89e7b987bae53b10d0d89370dbe1263e34eee26
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:04:20 -0500
+| | Message: query 2 and 4
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 1 +
+| |  submission/query_4.sql | 1 -
+| |  2 files changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 22c80da432a0111e67d0879324d4c62b5644a0cd
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:04:13 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: b0dea03bf50d8b23bc3eff2cb52f30df0ac6110e
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:03:47 -0500
+| | Message: updated all changed files grep
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 4 ++--
+| |  1 file changed, 2 insertions(+), 2 deletions(-)
+| | 
+| * Commit: 75d23b4e63f8f97a6f049daeeb940b333898d2a7
+| | Author: Julie Scherer
+| | Date: 2024-05-16 02:00:16 -0500
+| | Message: query 2 and 4
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 1 -
+| |  submission/query_4.sql | 1 +
+| |  2 files changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: da8cfc467d44dc6b2823586d8362969d06b557a6
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:59:51 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 3 +++
+| |  1 file changed, 3 insertions(+)
+| | 
+| * Commit: e513d9eb0c6176f051cdbb7f4574d7d2c85b2957
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:59:37 -0500
+| | Message: cleaned up logging
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 9 +++++----
+| |  1 file changed, 5 insertions(+), 4 deletions(-)
+| | 
+| * Commit: 735854b40a05b70bf204e081c8ae269701c28880
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:58:04 -0500
+| | Message: another syntax fix
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 9f20e2a14558ae06e1b7c8f11375795273b52d9c
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:57:22 -0500
+| | Message: logging files changed, fixed syntax error
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 4 ++--
+| |  1 file changed, 2 insertions(+), 2 deletions(-)
+| | 
+| * Commit: c0523b74fcd9ab3ff351ea92d486a7264f6603e7
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:55:58 -0500
+| | Message: logging files changed
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 9 +++++----
+| |  1 file changed, 5 insertions(+), 4 deletions(-)
+| | 
+| * Commit: 8016098f9229d2cc67467ad4846cd39b42b7ad6a
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:41:40 -0500
+| | Message: query 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 99234a98c52b6055395e4b732955a11169776bc1
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:41:31 -0500
+| | Message: queries 1 and 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 1 -
+| |  submission/query_3.sql | 2 +-
+| |  2 files changed, 1 insertion(+), 2 deletions(-)
+| | 
+| * Commit: 013c6b9364b038ab56ddc2c2c78cccbe97ef4674
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:41:09 -0500
+| | Message: drop schema cascade
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/trino_tests.py | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: a12d260984d0793ae15292c0149e008942b32d19
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:39:29 -0500
+| | Message: query 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 3 +++
+| |  1 file changed, 3 insertions(+)
+| | 
+| * Commit: 74f9ecb1410a6a8d4c890170624f00df24f69a26
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:38:51 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 4 +---
+| |  1 file changed, 1 insertion(+), 3 deletions(-)
+| | 
+| * Commit: c1aef3682f69308f2911d0e52b9dd59c92170c62
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:38:28 -0500
+| | Message: added echo files changed in push
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 4 +++-
+| |  1 file changed, 3 insertions(+), 1 deletion(-)
+| | 
+| * Commit: 7908497d73d4dae77bfa7e86a0555190d6fa4820
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:34:45 -0500
+| | Message: trigger on pull request event
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 066ac094fd5427abf4ae71764a67d6817be8724e
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:34:22 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 3 +++
+| |  1 file changed, 3 insertions(+)
+| | 
+| * Commit: e9bdfa2cff1352c0bd4e7ae3708ba530de430f5b
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:34:05 -0500
+| | Message: drop schema
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/trino_tests.py | 4 +++-
+| |  1 file changed, 3 insertions(+), 1 deletion(-)
+| | 
+| * Commit: 746a317823b73aca591d214be022dc21c5e53f51
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:32:57 -0500
+| | Message: query 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * Commit: 5126d12c0ba0b5d93a78644dd360713fb9c9653d
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:32:23 -0500
+| | Message: run all sql queries and generate comment for changed files only
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/entrypoint.sh | 41 ++++++++++++++++-------------------------
+| |  1 file changed, 16 insertions(+), 25 deletions(-)
+| | 
+| * Commit: 32223873884bef14ff44bf2192e1e7973d7ce548
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:26:56 -0500
+| | Message: removed files to process from trino tests
+| | Branch: 
+| | Stats:
+| | 
+| |  _app/src/trino_tests.py | 24 +++++++++---------------
+| |  1 file changed, 9 insertions(+), 15 deletions(-)
+| | 
+| * Commit: dc6e9e03d53ce1107232f4a4509cedf0c537cf81
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:24:57 -0500
+| | Message: pull request target event
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 60d5840c441755ba5c8565a3f2966df44bb1cc87
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:23:40 -0500
+| | Message: deleted queries
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 3 ---
+| |  submission/query_2.sql | 1 -
+| |  submission/query_3.sql | 3 ---
+| |  3 files changed, 7 deletions(-)
+| | 
+| * Commit: b4546a0e2a7df6893641f0c1400ea841fd8d89b2
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:23:08 -0500
+| | Message: remove logging
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 4 +---
+| |  1 file changed, 1 insertion(+), 3 deletions(-)
+| | 
+| * Commit: e85b7b4d9fdf208b5d67d1fff5384bec48ff3c91
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:20:31 -0500
+| | Message: query 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 3425d77748a4fc75159aa986234caa6b705c320f
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:20:19 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 2ecdbdfe705342e803955e4835090d0543a0a610
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:19:27 -0500
+| | Message: remove xargs
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 6 +++---
+| |  1 file changed, 3 insertions(+), 3 deletions(-)
+| | 
+| * Commit: 675302ff265be20ab52983b40edbffc82bb90343
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:18:02 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 3e521e5b832cc642fad43b8d8d41727ce3687438
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:17:53 -0500
+| | Message: files changed on push
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 8 +-------
+| |  1 file changed, 1 insertion(+), 7 deletions(-)
+| | 
+| * Commit: 8efe23e9824c4b1f6744b1e729aa50808fb0fb7d
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:15:12 -0500
+| | Message: changed to pull request event
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: a05f75bc5188ed0d92db361851f4107a46ac2185
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:12:34 -0500
+| | Message: query 2 and 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 2 +-
+| |  submission/query_3.sql | 4 +++-
+| |  2 files changed, 4 insertions(+), 2 deletions(-)
+| | 
+| * Commit: e18cfc34ae34e6f763041ea267353f88efb64c69
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:12:27 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 2c4a23bb4d0ab64ef2f7be072eaf3dc6ae66bce7
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:12:05 -0500
+| | Message: get files changed in single push
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 14 ++++++++------
+| |  1 file changed, 8 insertions(+), 6 deletions(-)
+| | 
+| * Commit: d5a1a65b993acea3380c3dd345474daa07f9d6ab
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:08:45 -0500
+| | Message: query 2 and 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 1 +
+| |  submission/query_3.sql | 4 +---
+| |  2 files changed, 2 insertions(+), 3 deletions(-)
+| | 
+| * Commit: f150539a9cc85a8ea4ca5e6356fd0461a86ddfa9
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:08:33 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 3 +++
+| |  1 file changed, 3 insertions(+)
+| | 
+| * Commit: 5eea058f125fe429f752059eae1273809e133f87
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:08:06 -0500
+| | Message: trying fetch depth 0
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 8 ++++++--
+| |  1 file changed, 6 insertions(+), 2 deletions(-)
+| | 
+| * Commit: 252ed9e666121ac89b14f057e0f99efe4c1628d2
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:05:11 -0500
+| | Message: query 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 3 +++
+| |  1 file changed, 3 insertions(+)
+| | 
+| * Commit: e3831b8a46e1debe46d9ae51b76a4c32bd2d1305
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:04:46 -0500
+| | Message: query 1 and 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 1 -
+| |  submission/query_2.sql | 1 -
+| |  2 files changed, 2 deletions(-)
+| | 
+| * Commit: 04c02b9c4f12c870d436c8330804b7d49d1e051e
+| | Author: Julie Scherer
+| | Date: 2024-05-16 01:04:00 -0500
+| | Message: on pull request only with fetch depth 2
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 14 +++-----------
+| |  1 file changed, 3 insertions(+), 11 deletions(-)
+| | 
+| * Commit: 7f8d306fd9947e66e61268681e79a2f9026a4c52
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:55:59 -0500
+| | Message: query 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 1 -
+| |  1 file changed, 1 deletion(-)
+| | 
+| * Commit: adb8d36e9d17fd31f3c715cacd8931c5318ca693
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:53:10 -0500
+| | Message: query 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * Commit: 557808c0e58590bd957443c6d50891ec4dd1622c
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:53:04 -0500
+| | Message: query 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 677eeb754707ebc4bf783c0bbf73a721b1720485
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:52:57 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: cb5471f68295fcb653f721b992da370c687a6e0e
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:52:08 -0500
+| | Message: use head ref
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: 0a1e8db1f53a76155eb2c0fbd6afeb5be94011b6
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:50:48 -0500
+| | Message: fixed typo in files_changed_commit
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 8 +++-----
+| |  1 file changed, 3 insertions(+), 5 deletions(-)
+| | 
+| * Commit: e943264d3268fbdf044c2b11d1f38a58df0f070d
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:47:51 -0500
+| | Message: use head ref
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 2 +-
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+| | 
+| * Commit: e949b7bb38bd453b0d8405e1beade1efdb190b9e
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:43:49 -0500
+| | Message: query 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_2.sql | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * Commit: a8d638d998c64f2d37060504fb98aecfc10a6c2d
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:43:42 -0500
+| | Message: query 1
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * Commit: dad5834d3745d11adbd0005de237f17aaa0beabb
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:43:33 -0500
+| | Message: added push event trigger
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 7 +++++--
+| |  1 file changed, 5 insertions(+), 2 deletions(-)
+| | 
+| * Commit: 325a7ff89a8bc22d40f290cf06bf28275e4647a0
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:37:37 -0500
+| | Message: query 3
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 1 -
+| |  1 file changed, 1 deletion(-)
+| | 
+| * Commit: e832a8e0c76dd7ee119e3ff5933952354afb9f22
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:37:26 -0500
+| | Message: query 1 and 2
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 1 -
+| |  submission/query_2.sql | 1 -
+| |  2 files changed, 2 deletions(-)
+| | 
+| * Commit: cba48d3333c70cc4e8a23ec900149885555f8b46
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:36:35 -0500
+| | Message: changed fetch depth to get file changes on push event
+| | Branch: 
+| | Stats:
+| | 
+| |  .github/workflows/autograding.yml | 89 ++++++++++++++++++++++++++++++-----
+| |  1 file changed, 76 insertions(+), 13 deletions(-)
+| | 
+| * Commit: ca2207d539304b26895b68609625a6f0b0b05997
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:26:58 -0500
+| | Message: query 3 commit
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_3.sql | 1 +
+| |  1 file changed, 1 insertion(+)
+| | 
+| * Commit: 1b3117541559916be2c475e13823bd59fe1f0763
+| | Author: Julie Scherer
+| | Date: 2024-05-16 00:26:41 -0500
+| | Message: query 1 & 2 commit
+| | Branch: 
+| | Stats:
+| | 
+| |  submission/query_1.sql | 1 +
+| |  submission/query_2.sql | 1 +
+| |  2 files changed, 2 insertions(+)
+| | 
+| * Commit: 0c0e7372bfc30ae9c67f310a02c1c3bd05bca0de
+|/  Author: Julie Scherer
+|   Date: 2024-05-16 00:25:09 -0500
+|   Message: chatgpt solution
+|   Branch: 
+|   Stats:
+|   
+|    .github/workflows/autograding.yml | 82 ++++++-----------------------------
+|    1 file changed, 13 insertions(+), 69 deletions(-)
+| 
+* Commit: 985620246332e27f45e7d8bf25d4776984ec1e7d
+| Author: Julie Scherer
+| Date: 2024-05-15 16:36:52 -0500
+| Message: check changed files only
+| Branch: 
+| Stats:
+| 
+|  _app/src/trino_tests.py | 14 ++++++++++----
+|  1 file changed, 10 insertions(+), 4 deletions(-)
+| 
+* Commit: 8ab7a4145b89a244a42498941257f0f499a379a7
+| Author: Julie Scherer
+| Date: 2024-05-15 16:29:05 -0500
+| Message: create test schema if not exists
+| Branch: 
+| Stats:
+| 
+|  _app/src/trino_tests.py | 4 +---
+|  1 file changed, 1 insertion(+), 3 deletions(-)
+| 
+* Commit: 0446eb52c73cee6274cc9413af76729e263b72c7
+| Author: Julie Scherer
+| Date: 2024-05-15 16:28:15 -0500
+| Message: add permissions
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 2 ++
+|  1 file changed, 2 insertions(+)
+| 
+* Commit: 0babfca1a8e9313b4b48fe4b1263dcf47c31f9b7
+| Author: Julie Scherer
+| Date: 2024-05-15 16:16:47 -0500
+| Message: hard code assignment name
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: a6f17300b908c51fd6876be177cda665b69e3bfb
+  Author: Julie Scherer
+  Date: 2024-05-15 16:15:39 -0500
+  Message: first commit
+  Branch: 
+  Stats:
+  
+   .github/workflows/autograding.yml | 127 +++++++++++++++++++++++++++++++
+   .gitignore                        | 146 ++++++++++++++++++++++++++++++++++++
+   Dockerfile                        |  25 ++++++
+   README.md                         | 115 ++++++++++++++++++++++++++++
+   _app/requirements.txt             |   5 ++
+   _app/src/entrypoint.sh            |  42 +++++++++++
+   _app/src/generate_comment.py      | 108 ++++++++++++++++++++++++++
+   _app/src/trino_tests.py           |  94 +++++++++++++++++++++++
+   _app/src/util.py                  | 102 +++++++++++++++++++++++++
+   compare_changes_screenshot.png    | Bin 0 -> 496818 bytes
+   submission/query_1.sql            |   0
+   submission/query_2.sql            |   0
+   submission/query_3.sql            |   0
+   submission/query_4.sql            |   0
+   submission/query_5.sql            |   0
+   15 files changed, 764 insertions(+)

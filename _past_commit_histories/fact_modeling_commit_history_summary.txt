@@ -1,0 +1,96 @@
+* Commit: 31001198721555e32f02f9045a14d6bf911c8f69
+| Author: Julie Scherer
+| Date: 2024-05-19 21:03:06 -0500
+| Message: setting before sha to event before in github context to limit chatgpt api usage
+| Branch:  (HEAD -> cicd/limit-chatgpt-usage, origin/cicd/limit-chatgpt-usage, main)
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: 411fa3449a793c76979101b286c3a495a53bf4a5
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-19 10:17:03 -0500
+| Message: updated workflow to match dimensional data modeling pub repo (#56)
+| Branch:  (origin/main)
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 36 ++++++++++++++++++------------------
+|  1 file changed, 18 insertions(+), 18 deletions(-)
+| 
+* Commit: 2a15fbf072bc809b9db2b71b8b53c3530c910c83
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-18 17:40:56 -0500
+| Message: Update README.md
+| Branch: 
+| Stats:
+| 
+|  README.md | 66 ++++++++++++++++++++++++++++++++-----------------------------
+|  1 file changed, 35 insertions(+), 31 deletions(-)
+|   
+| * Commit: 4eedc49286691dfe482d6fb37365f7faaa84e222
+|/  Author: Julie Scherer
+|   Date: 2024-05-19 10:14:45 -0500
+|   Message: updated workflow to match dimensional data modeling pub repo
+|   Branch:  (origin/cicd/updates, cicd/updates)
+|   Stats:
+|   
+|    .github/workflows/autograding.yml | 36 +++++++++++++++++------------------
+|    1 file changed, 18 insertions(+), 18 deletions(-)
+| 
+* Commit: 3b1c002449b021750556ad40ec1c2ef987e3a64d
+| Author: JulieAnn "Julie" Scherer
+| Date: 2024-05-17 17:59:59 -0500
+| Message: Update autograding.yml
+| Branch: 
+| Stats:
+| 
+|  .github/workflows/autograding.yml | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+|   
+*   Commit: 1bda3215846f83e3b4087250f5e2efe12fe01c63
+|\  Author: JulieAnn "Julie" Scherer
+| | Date: 2024-05-17 12:54:51 -0500
+| | Message: Merge pull request #14 from DataExpert-ZachWilson-V4/cicd/submission-file-changes
+| | Branch: 
+| | Stats:
+| | 
+| * Commit: 88dcea93482b0d8a3f7c544d279825917ff24ffd
+|/  Author: Julie Scherer
+|   Date: 2024-05-17 12:52:50 -0500
+|   Message: updates from dimensional-data-modeling
+|   Branch:  (origin/cicd/submission-file-changes)
+|   Stats:
+|   
+|    .github/workflows/autograding.yml |  73 ++++++++++---------
+|    _app/src/entrypoint.sh            |  46 +++++-------
+|    _app/src/generate_comment.py      |   4 +-
+|    _app/src/trino_tests.py           |  69 ++++++++----------
+|    _app/src/util.py                  | 130 +++++++++++++++++-----------------
+|    5 files changed, 155 insertions(+), 167 deletions(-)
+| 
+* Commit: 1c71543af10949a107e6d4ddbca092b44a95eca4
+  Author: Julie Scherer
+  Date: 2024-05-15 16:46:35 -0500
+  Message: first commit
+  Branch: 
+  Stats:
+  
+   .github/workflows/autograding.yml | 129 +++++++++++++++++++++++++++++++
+   .gitignore                        | 148 ++++++++++++++++++++++++++++++++++++
+   Dockerfile                        |  19 +++++
+   README.md                         | 127 +++++++++++++++++++++++++++++++
+   _app/requirements.txt             |   5 ++
+   _app/src/entrypoint.sh            |  42 ++++++++++
+   _app/src/generate_comment.py      | 108 ++++++++++++++++++++++++++
+   _app/src/trino_tests.py           |  98 ++++++++++++++++++++++++
+   _app/src/util.py                  | 102 +++++++++++++++++++++++++
+   submission/query_1.sql            |   0
+   submission/query_2.sql            |   0
+   submission/query_3.sql            |   0
+   submission/query_4.sql            |   0
+   submission/query_5.sql            |   0
+   submission/query_6.sql            |   0
+   submission/query_7.sql            |   0
+   submission/query_8.sql            |   0
+   17 files changed, 778 insertions(+)
