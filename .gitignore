@@ -144,3 +144,4 @@ data.dump
 .vscode/*
 .DS_Store
 __pycache__
+solutions/
