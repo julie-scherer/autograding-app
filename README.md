@@ -1,8 +1,6 @@
-# Welcome to IntelliGraderAI
+# Autograding Application
 
-IntelliGraderAI is an innovative tool designed to provide students with immediate, AI-generated feedback on their homework assignments. By increasing students' revision performance before any human grading occurs, IntelliGraderAI saves time and effort for educators. 
-
-Embrace the dynamic world of education with IntelliGraderAI, where creativity meets efficiency and the transformative impact of AI-driven insights elevates the teaching experience.
+This project provides students with immediate, AI-generated feedback on their homework assignments. The goal is to save time and effort for educators by increasing students' revision performance before any human grading occurs.
 
 > ⚠️ *Please note this project is licensed under a proprietary license. For more details, please refer to the `LICENSE` file.*
 
